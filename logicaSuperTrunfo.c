@@ -144,6 +144,7 @@ void CompareCards(int selectedOptionArray[], struct Card card1, struct Card card
 
         switch(currentOption)
         {
+            default:
             case Population + 1:
 
                 if(card1.population != card2.population)
